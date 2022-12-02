@@ -6,7 +6,6 @@ add = 0
 for line in data:
     if line != '':
         add += int(line)
-    
     else:
         maxi = max(maxi, add)
         add = 0
